@@ -12,5 +12,7 @@ It is shared publicly for transparency but it is not anticipated that anyone out
     :titlesonly:
     :maxdepth: 3
     :caption: Documentation
+    :glob:
 
     Home <self>
+    *
