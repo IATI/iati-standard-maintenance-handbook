@@ -5,7 +5,7 @@
 from urllib.parse import urlparse
 
 # Project name (used for titles, headers, and Sphinx internals)
-project = "IATI Docs Base"
+project = "IATI Standard Maintenance Handbook"
 
 # URL of the live tool this repo documents. Set this for repos that
 # document a deployed tool (Validator, Datastore, Publisher, ...).
@@ -27,24 +27,16 @@ tool_url = None
 nav_label = None
 
 # Eyebrow text: the smaller text that appears directly above the website title
-eyebrow_text = "IATI Tools: Documentation"
+eyebrow_text = "IATI Standard"
 
 # GitHub repository URL (used by the theme for the "Source code at GitHub" footer link)
-github_repository = "https://github.com/IATI/iati-docs-base"
+github_repository = "https://github.com/IATI/iati-standard-maintenance-handbook"
 
 # Plausible analytics domain, derived from tool_url so docs are tracked
 # under the tool's site. Set to None to disable, or a string to override.
-plausible_domain = urlparse(tool_url).hostname if tool_url else None
+plausible_domain = None
 
 # Supported languages for the documentation
-languages = ["en", "fr", "es"]
+languages = ["en"]
 
-redoc = [
-    {
-        "name": "Widgets API",
-        "page": "api-docs/test-widget-api",
-        "spec": "specifications/test-widget-api.yaml",
-        "embed": True,
-        "template": "_templates/redoc-custom.j2",
-    }
-]
+redoc = []

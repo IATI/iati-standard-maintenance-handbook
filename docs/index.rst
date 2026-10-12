@@ -1,12 +1,10 @@
-******************
-IATI Documentation
-******************
+**********************************
+IATI Standard Maintenance Handbook
+**********************************
 
-This file is where your documentation goes. 
+This is the IATI Secretariat's documentation to help with day-to-day tasks around maintaining the IATI Standard. 
 
-.. raw:: html
-
-   This is  <a href="api-docs/test-widget-api/" target="_blank">an API specification</a> (opens in a new tab)
+It is shared publicly for transparency but it is not anticipated that anyone outside of the Secretariat will need to use it. 
 
 
 .. toctree::
