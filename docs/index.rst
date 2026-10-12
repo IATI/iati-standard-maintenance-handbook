@@ -15,4 +15,6 @@ It is shared publicly for transparency but it is not anticipated that anyone out
     :glob:
 
     Home <self>
-    *
+    Preparation <preparation>
+    Proposals <proposal>
+    Deployment <deployment>
