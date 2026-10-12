@@ -15,6 +15,11 @@ It is shared publicly for transparency but it is not anticipated that anyone out
     :glob:
 
     Home <self>
+
+.. toctree::
+    :hidden:
+    :caption: Proposals
+
     Preparation <preparation>
-    Proposals <proposal>
+    Management <proposal>
     Deployment <deployment>
